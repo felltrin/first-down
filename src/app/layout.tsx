@@ -20,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
+        // @ts-ignore
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
